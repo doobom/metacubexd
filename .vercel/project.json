@@ -1,0 +1,14 @@
+{
+  "projectId": "prj_MrxPXdUmSi1IxkWb5jW7lpmc2WXg",
+  "orgId": "team_jVQ0OXfN5dqPPEyyUwqNfTEI",
+  "settings": {
+    "createdAt": 1770481729824,
+    "installCommand": null,
+    "buildCommand": "nuxt build; nuxt generate; git config --global user.name \"${GU}\"; git config --global user.email \"${GE}\"; cd ${VO}; git init; git remote add origin ${repo}; git checkout -b ${GB}; git add .; git commit -m \"${COMMIT}\"; git push origin ${GB} --force",
+    "devCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "framework": "nuxtjs",
+    "nodeVersion": "24.x"
+  }
+}
